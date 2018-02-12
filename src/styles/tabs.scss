@@ -1,0 +1,41 @@
+.ui-tabs {
+    display: flex;
+    flex-direction: column;
+    background-color: #32343a;
+    box-shadow: $headerBoxShadow;
+    border: 1px solid #555;
+    margin-top: 20px;
+    
+    .tabs {
+        display: flex;
+        .tab {
+          padding: 20px;
+          flex: 1 1 50%;
+          text-align: center;
+          color: $primaryFontColor;
+          font-weight: bold;
+          background-color: #28292e;
+
+          &.active {
+            background-color: rgb(50, 52, 58);
+
+          }
+
+        }
+        
+
+    }
+    .tab-body {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 64em) {
+    .ui-tabs > .tabs {
+        flex-direction: column;
+    }
+
+    .ul-tabs > .tabs > .tab {
+        flex-basis: 100%;
+    }
+}

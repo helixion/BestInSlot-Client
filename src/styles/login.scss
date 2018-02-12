@@ -1,0 +1,22 @@
+.logo {
+  text-align: center;
+  img {
+    min-height: 90px;
+    max-height: 120px;
+  }
+}
+
+.toggle {
+  border-radius: 10px;
+  margin-left: 5px;
+  border: 1px solid #fff;
+  background-color: #eee;
+  text-align: center;
+  width: 20px;
+}
+
+#register, #login {
+  min-height: 554px;
+}
+
+
