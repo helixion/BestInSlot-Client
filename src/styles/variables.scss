@@ -1,0 +1,51 @@
+//body
+$primary-background-color: #23262b;
+$primaryHeaderBGColor: #000;
+$primaryFontColor: #cacaca;
+$secondaryFontColor: #91949e;
+
+$family-primary: 'Lato', sans-serif;
+$primary: #cacaca;
+$background: #23262b;
+$link-hover-color: #50a4c3;
+$link-visted-color: #50a4c3;
+
+//header
+$headerPrimaryBackgroundColor: #32343a;
+$primaryHeaderFontFamily: 'Lato';
+$headerBoxShadow: 0 1px 6px 0 rgba(0,0,0,0.5);
+
+//footer
+$footer-background-color: $primaryHeaderBGColor;
+
+//dropdown
+$dropdown-content-background-color: #333;
+$dropdown-item-color: $primaryFontColor;
+$dropdown-item-hover-background-color: #1d1d1d;
+$dropdown-item-hover-color: $primaryFontColor;
+
+//panel
+$panel-list-item-color: #cacaca;
+$panel-icon-color: #cacaca;
+
+//general
+$universalBoxShadow: 1px 1px 0 rgba(55, 55, 55, 0.5);
+
+//form
+$formInputBackgroundColor: #e4e4e4;
+$formButtonHoverColor: #50a4c3;
+$input-focus-color: $link-hover-color;
+
+//button colors
+$buttonSuccess: #2ecc71;
+$buttonFailure: #e74c3c;
+$buttonDefault: #bdc3c7;
+
+//form animation time
+$trans-time: 300ms;
+
+
+
+
+
+
